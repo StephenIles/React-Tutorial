@@ -1,0 +1,46 @@
+.tutorials {
+    padding: 2rem;
+}
+
+.tutroial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.tutorial-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tutorial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.tutorial-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.level {
+    background: #e3f3fd;
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+}
+
+.duration {
+    color: #666;
+}
+
+.tutorial-card-link {
+    text-decoration: none;
+    color: inherit;
+}

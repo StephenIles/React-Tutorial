@@ -1,0 +1,42 @@
+.lesson {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.lesson-section {
+    margin-bottom: 2rem;
+}
+
+.code-example {
+    background: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+.code-example pre {
+    margin: 0;
+    padding: 0;
+}
+
+.code-example code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    display: block;
+    white-space: pre;
+    line-height: 1.5;
+}
+
+.lesson h1 {
+    color: #20232a;
+    margin-bottom: 2rem;
+}
+
+.lesson h2 {
+    color: #61dafb;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    border-left: 4px solid #61dafb;
+    padding-left: 1rem;
+}
